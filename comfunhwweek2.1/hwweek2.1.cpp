@@ -1,10 +1,10 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+
 int main() {
     int k, x = 2;
     printf("Enter number : ");
     scanf("%d", &k);
-    if (k < 2|| k<=0) {
+    if (k < 2 || k <= 0) {
         printf("Error");
     }
     else {
@@ -16,9 +16,9 @@ int main() {
                 if (k == 1)break;
                 printf(" x ");
             }
+            x++;
         }
-        x++;
     }
     return 0;
 }
-
+//ส่งอีกรอบ round2
